@@ -24,7 +24,7 @@ Requires the Sync.me MCP server `https://mcp.sync.me/mcp`.
 ## Phone Verification Workflow
 
 1. Attempt the requested Sync.me MCP tool call only if the tool is already available in the current environment. If it is unavailable or unauthorized, say the number could not be verified and ask the user to connect Sync.me mcp connector first.
-2. Extract the phone number from the user message.
+2. Extract the phone number from the user message with country code.
 3. Call `check_phone_number` with the extracted value as `phone_number`.
 4. Decide the verdict using this priority order — first match wins:
    - `🚨 Do not trust this number` when `status` is `ok` and `is_fraud` is `true` OR `is_big_spammer` is `true` (heavy spam volume — treat as equally serious as fraud).

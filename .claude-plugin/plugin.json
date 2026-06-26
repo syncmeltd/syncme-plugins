@@ -7,6 +7,7 @@
     "name": "Sync.me Technologies Ltd",
     "url": "https://sync.me"
   },
+  "repository": "https://github.com/syncmeltd/syncme-plugins",
   "homepage": "https://mcp.sync.me/",
   "keywords": ["caller-id", "phone", "spam", "fraud", "safety"],
   "license": "MIT",
