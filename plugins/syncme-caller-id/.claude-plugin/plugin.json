@@ -1,0 +1,15 @@
+{
+  "name": "syncme-caller-id",
+  "displayName": "Sync.me Caller ID",
+  "version": "0.1.0",
+  "description": "Skills for phone number lookup - get the business caller ID and check whether a number is spam, fraud, or risky to call back.",
+  "author": {
+    "name": "Sync.me Technologies Ltd",
+    "url": "https://sync.me"
+  },
+  "homepage": "https://mcp.sync.me/",
+  "keywords": ["caller-id", "phone", "spam", "fraud", "safety"],
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

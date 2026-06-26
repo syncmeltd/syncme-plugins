@@ -1,0 +1,22 @@
+{
+  "name": "syncme-plugins",
+  "owner": {
+    "name": "Sync.me Technologies Ltd",
+    "url": "https://sync.me/"
+  },
+  "metadata": {
+    "description": "Official Sync.me plugin marketplace for Claude"
+  },
+  "plugins": [
+    {
+      "name": "syncme-caller-id",
+      "displayName": "Sync.me Caller ID",
+      "description": "Skills for phone number lookup - get the business caller ID and check whether a number is spam, fraud, or risky to call back.",
+      "author": {
+        "name": "Sync.me Technologies Ltd",
+        "url": "https://sync.me"
+      },
+      "source": "./plugins/syncme-caller-id"
+    }
+  ]
+}
