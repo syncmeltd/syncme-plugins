@@ -16,7 +16,7 @@
         "name": "Sync.me Technologies Ltd",
         "url": "https://sync.me"
       },
-      "source": "./plugins/syncme-caller-id"
+      "source": "./"
     }
   ]
 }
